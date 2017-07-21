@@ -1,0 +1,7 @@
+<h1>My Lamp</h1>
+
+<div id="lamp" [ngStyle]="{'opacity':lampValue/100}"></div>
+
+<div id="myInput">
+    <input type="range" min="0" max="100" [(ngModel)]="lampValue" (ngModelChange)="dataChanged($event)">
+</div>

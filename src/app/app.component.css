@@ -1,0 +1,18 @@
+#lamp {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#myInput {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
