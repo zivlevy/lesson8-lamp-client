@@ -10,8 +10,8 @@ export class SocketService {
     lampInput$: BehaviorSubject<number> = new BehaviorSubject(0);
 
     constructor() {
-         this.socket = io('http://130.211.153.28:3000');
-        // this.socket = io('http://localhost:3000');
+         // this.socket = io('http://130.211.153.28:3000');
+        this.socket = io('http://localhost:3000');
 
         this.socket.on('connect', () => {
             console.log('We are connected');
